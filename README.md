@@ -6,7 +6,7 @@ This project has the following parts.
 1. Data cleaning & Feature engineering
 2. Build Machine Learning models (linear regression, ridge regression, random forest)
 3. Build Deep Learning models (neural networks)
-4. Final comparison and report (**Note: the complete project desciption, process, results analysis, and charts are in report pdf**)
+4. Final analysis and report (**Note: the complete project description, process, results analysis, and charts are in report pdf**)
 
 ## Detailed project description
 
@@ -26,10 +26,11 @@ Store complete project desciption, process, results analysis, and charts.
 
 ### Dataset
 Dataset we use: [ used_car_train_20200313.csv](https://drive.google.com/file/d/1fgUXVEAmnvWJVNXFKqOrgHTLkgG66Hoj/view " used_car_train_20200313.csv")
+
 Details about this dataset:
 1. 150000 rows/samples, 31 columns/attributes.
 2. Attributes in our dataset:
-['SaleID', 'name', 'regDate', 'model', 'brand', 'bodyType', 'fuelType', 'gearbox', 'power', 'kilometer', 'notRepairedDamage', 'regionCode', 'seller', 'offerType', 'creatDate', 'price', 'v_0', 'v_1', 'v_2', 'v_3', 'v_4', 'v_5', 'v_6', 'v_7', 'v_8', 'v_9', 'v_10', 'v_11', 'v_12', 'v_13', 'v_14']
+['SaleID', 'name', 'regDate', 'model', 'brand', 'bodyType', 'fuelType', 'gearbox', 'power', 'kilometer', 'notRepairedDamage', 'regionCode', 'seller', 'offerType', 'creatDate', 'price', 'v_0', 'v_1', 'v_2', 'v_3', 'v_4', 'v_5', 'v_6', 'v_7', 'v_8', 'v_9', 'v_10', 'v_11', 'v_12', 'v_13', 'v_14']  
 Among them, v_0 to v_14 are anonymous variables .
 3. The whole dataset has information about 150000 used cars, I will use 100000
 for training set, 50000 for test set.
